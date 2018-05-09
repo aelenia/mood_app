@@ -13,26 +13,63 @@
   width: 90%;
 }
 
+p {
+  margin-top: 10%;
+}
+
 .speed {
   border: none;
   position: absolute;
+  font-size: 1.5rem;
 }
 
 .speed-perfect {
   top: 35%;
   background: none;
+
+  &::after {
+    content: '';
+    height: 100px;
+    width: 1px;
+    position: absolute;
+    background: #9b9b9b;
+    top: 50px;
+    left: 72px;
+  }
 }
 
 .speed-slow {
   top: 45%;
   left: 1%;
   background: none;
+
+  &::after {
+    content: '';
+    height: 90px;
+    width: 1px;
+    position: absolute;
+    background: #9b9b9b;
+    top: 50px;
+    left: 75px;
+    transform: rotate(-20deg);
+  }
 }
 
 .speed-fast {
   top: 45%;
   left: 60%;
   background: none;
+
+  &::after {
+    content: '';
+    height: 90px;
+    width: 1px;
+    position: absolute;
+    background: #9b9b9b;
+    top: 50px;
+    left: 70px;
+    transform: rotate(20deg);
+  }
 }
 
 svg {
