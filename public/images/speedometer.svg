@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="191px" height="95px" viewBox="0 0 191 95" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Daily" transform="translate(-92.000000, -409.000000)">
+            <g id="Speed-Button" transform="translate(27.000000, 411.000000)">
+                <g id="Group" transform="translate(67.000000, 0.000000)">
+                    <path d="M93,91 C113.444444,91 144.111111,91 185,91 C185,77.4449954 181.999247,64.5771081 176.613481,53 L93,91 Z" id="Oval-2" stroke="#7EBD3F" stroke-width="3" fill="#7EBD3F"></path>
+                    <path d="M187,91 C187,40.7420878 145.138624,0 93.5,0 C41.8613759,0 0,40.7420878 0,91 L187,91 Z" id="Oval-2" stroke="#606060" stroke-width="3"></path>
+                    <path d="M111,96 C119,58.2864689 123,37.2440124 123,32.8726306 C123,26.3155578 117.627417,21 111,21 C104.372583,21 99,26.3155578 99,32.8726306 C99,37.2440124 103,58.2864689 111,96 Z" id="Oval-3" fill="#606060" transform="translate(111.000000, 58.500000) scale(-1, -1) rotate(40.000000) translate(-111.000000, -58.500000) "></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

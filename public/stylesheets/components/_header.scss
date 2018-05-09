@@ -1,0 +1,37 @@
+.header {
+  height: 15vh;
+}
+
+.changer {
+  display: flex;
+}
+
+button {
+  background: white;
+  border: 1px solid #979797;
+  width: 9rem;
+  padding: 0.8rem 0;
+  font-size: 1.2rem;
+  font-family: 'Montserrat', sans-serif;
+  color: #9b9b9b;
+
+  &:focus {
+    outline: none;
+  }
+}
+
+.daily-changer {
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+}
+
+.overview-changer {
+  border-left: none;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+
+.active-btn {
+  color: white;
+  background: #f59d0c;
+}

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="54px" height="54px" viewBox="0 0 54 54" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>Bad</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Daily-Mood" transform="translate(-201.000000, -435.000000)" stroke="#606060" stroke-width="3">
+            <g id="Mood-Selector" transform="translate(43.000000, 437.000000)">
+                <g id="Bad" transform="translate(160.000000, 0.000000)">
+                    <circle id="Oval" fill="#FFE810" cx="25" cy="25" r="25"></circle>
+                    <path d="M14,32 C16.3562114,37.2287582 20.0404478,39.8431373 25.0527091,39.8431373 C30.0649704,39.8431373 33.7450751,37.6678097 36.0930233,33.3171545" id="Path-2-Copy" transform="translate(25.046512, 35.921569) scale(1, -1) translate(-25.046512, -35.921569) "></path>
+                    <path d="M18.0232558,12.9411765 L18.0232558,22.3611076" id="Line" stroke-linecap="square"></path>
+                    <path d="M30.8139535,12.9411765 L30.8139535,22.3611076" id="Line-Copy" stroke-linecap="square"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

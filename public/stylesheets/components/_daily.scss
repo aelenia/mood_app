@@ -1,0 +1,40 @@
+.daily-start,
+.daily-mood,
+.daily-speed {
+  height: 75vh;
+}
+
+.mood-selector {
+  width: 100%;
+  height: 40%;
+}
+
+.mood-icons {
+  width: 90%;
+}
+
+.speed {
+  border: none;
+  position: absolute;
+}
+
+.speed-perfect {
+  top: 35%;
+  background: none;
+}
+
+.speed-slow {
+  top: 45%;
+  left: 1%;
+  background: none;
+}
+
+.speed-fast {
+  top: 45%;
+  left: 60%;
+  background: none;
+}
+
+svg {
+  margin: auto 0 5% 0;
+}

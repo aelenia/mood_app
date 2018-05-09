@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="52px" height="52px" viewBox="0 0 52 52" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>User Icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Daily-Speed" transform="translate(-306.000000, -40.000000)" stroke="#979797">
+            <g id="User-Icon" transform="translate(307.000000, 41.000000)">
+                <g>
+                    <g id="Personal-Details" transform="translate(11.000000, 9.000000)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+                        <path d="M28,32 L28,28.4444444 C28,24.5170862 24.8659932,21.3333333 21,21.3333333 L7,21.3333333 C3.13400675,21.3333333 0,24.5170862 0,28.4444444 L0,32" id="svg_1"></path>
+                        <ellipse id="svg_2" cx="14" cy="7.11111111" rx="7" ry="7.11111111"></ellipse>
+                    </g>
+                    <circle id="Oval-4" stroke-width="1" cx="25" cy="25" r="25"></circle>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

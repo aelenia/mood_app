@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="54px" height="54px" viewBox="0 0 54 54" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>Kill me</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Daily-Mood" transform="translate(-281.000000, -435.000000)" stroke="#606060" stroke-width="3">
+            <g id="Mood-Selector" transform="translate(43.000000, 437.000000)">
+                <g id="Kill-me" transform="translate(240.000000, 0.000000)">
+                    <circle id="Oval" fill="#FFE810" cx="25" cy="25" r="25"></circle>
+                    <polyline id="Line" stroke-linecap="square" points="11 16 18.2997287 19.6502354 11 22.8052302"></polyline>
+                    <polyline id="Line-Copy-2" stroke-linecap="square" transform="translate(33.649864, 19.402615) scale(-1, 1) translate(-33.649864, -19.402615) " points="30 16 37.2997287 19.6502354 30 22.8052302"></polyline>
+                    <path d="M15,31 C17.3562114,36.2287582 21.0404478,38.8431373 26.0527091,38.8431373 C31.0649704,38.8431373 34.7450751,36.6678097 37.0930233,32.3171545 L15,31 Z" id="Path-2" fill="#F5A623" transform="translate(26.046512, 34.921569) scale(1, -1) translate(-26.046512, -34.921569) "></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
