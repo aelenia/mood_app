@@ -128,4 +128,41 @@ p {
 svg {
   margin: auto 0 5% 0; }
 
+.overview {
+  height: 75vh; }
+
+.mood-stats,
+.speed-stats {
+  width: 100%; }
+
+.mood-stats {
+  height: 20vh;
+  padding-top: 5%; }
+
+.mood-stats p {
+  margin-top: 20%; }
+
+.speed-stats {
+  height: 55vh;
+  padding-bottom: 5%; }
+
+.single-speed-stat {
+  width: 100%; }
+
+.speed-stats p {
+  margin: 0;
+  color: #9b9b9b;
+  text-align: left; }
+
+.count {
+  color: #9b9b9b;
+  font-size: 1.2rem; }
+
+.description {
+  font-size: 1.5rem;
+  font-weight: bold; }
+
+.speed-text {
+  width: 50%; }
+
 /*# sourceMappingURL=style.css.map */
