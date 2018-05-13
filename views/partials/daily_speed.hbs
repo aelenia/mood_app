@@ -1,25 +1,31 @@
 <div class="daily-speed display-column hidden">
   <p>Please select</p>
-  <button class="speed speed-slow js-too-slow">Too slow</button>
-  <button class="speed speed-perfect js-perfect-speed">Perfect</button>
-  <button class="speed speed-fast js-too-fast">Too fast</button>
+  <button class="speed-btn speed-slow js-too-slow">Too slow</button>
+  <button class="speed-btn speed-perfect js-perfect-speed">Perfect</button>
+  <button class="speed-btn speed-fast js-too-fast">Too fast</button>
   <svg width="192px" height="95px" viewBox="0 0 192 95" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
       <g id="Daily-Speed" transform="translate(-98.000000, -409.000000)">
         <g id="Speed-Selector" transform="translate(22.000000, 174.000000)">
-          <g id="Group" transform="translate(78.000000, 237.000000)">
+          <g id="Group" class="group" transform="translate(78.000000, 237.000000)">
             <path d="M142.627304,15.2812736 C116.87815,5.09375787 100.972179,0 94.9093896,0 C88.5199018,0 70.643721,5.24748692 41.2808472,15.7424608 L41.2808382,15.7424355 C40.7607608,15.9283233 40.4898465,16.5006212 40.6757343,17.0206986 C40.7083608,17.1119812 40.7540864,17.1980349 40.8114762,17.2761593 L93.2788178,88.6996962 C93.93275,89.5898908 95.1845121,89.7814194 96.0747067,89.1274873 C96.2623673,88.9896329 96.4245128,88.8200664 96.553837,88.6264286 L143.554691,18.2517907 C144.168159,17.3332414 143.920842,16.091296 143.002293,15.4778279 C142.884603,15.3992269 142.758903,15.3333397 142.627304,15.2812736 Z"
-              id="js-green" stroke="#7EBD3F" stroke-width="3" fill="#7EBD3F" class="js-perfect-speed"></path>
+              id="js-green" stroke="#7EBD3F" stroke-width="3" fill="#7EBD3F" class="speed-btn js-perfect-speed"></path>
             <path d="M187.979948,88.5031263 C183.52008,68.5541876 179.262672,54.8769618 175.207726,47.4714491 C171.067595,39.9103647 161.462646,30.2625616 146.392879,18.52804 L146.392863,18.5280602 C145.957117,18.188754 145.328814,18.2669335 144.989508,18.702679 C144.97314,18.7236987 144.957619,18.7453641 144.942982,18.7676233 L99.5213765,87.8406113 C98.9144841,88.7635173 99.1706637,90.0036639 100.09357,90.6105562 C100.419889,90.8251399 100.801894,90.9394872 101.192446,90.9394872 L186.028111,90.9395068 C187.132691,90.9395068 188.028131,90.0440675 188.028131,88.9394872 C188.028131,88.7927062 188.011972,88.6463712 187.979948,88.5031263 Z"
-              id="js-orange-right" stroke="#F59D0C" stroke-width="3" fill="#F59D0C" class="js-too-fast"></path>
+              id="js-orange-right" stroke="#F59D0C" stroke-width="3" fill="#F59D0C" class="speed-btn js-too-fast"></path>
             <path d="M88.7877267,88.1860991 C84.3278583,68.2371603 80.0704509,54.5599346 76.0155043,47.1544218 C71.8753732,39.5933374 62.2704243,29.9455344 47.2006573,18.2110127 L47.2006416,18.2110329 C46.7648961,17.8717268 46.1365926,17.9499063 45.7972864,18.3856518 C45.7809188,18.4066715 45.7653977,18.4283369 45.7507603,18.4505961 L0.329155156,87.5235841 C-0.277737226,88.44649 -0.0215576028,89.6866366 0.90134836,90.293529 C1.22766741,90.5081127 1.60967298,90.6224599 2.00022422,90.6224599 L86.8358897,90.6224796 C87.9404701,90.6224796 88.8359093,89.7270403 88.8359093,88.6224599 C88.8359093,88.4756789 88.8197512,88.329344 88.7877267,88.1860991 Z"
               id="js-orange-left" stroke="#F59D0C" stroke-width="3" fill="#F59D0C" transform="translate(44.417955, 54.311240) scale(-1, 1) translate(-44.417955, -54.311240) "
-              class="js-too-slow"></path>
+              class="speed-btn js-too-slow"></path>
             <path d="M187,91 C187,40.7420878 145.138624,0 93.5,0 C41.8613759,0 0,40.7420878 0,91 L187,91 Z" id="speedometer" stroke="#606060"
               stroke-width="3"></path>
             <path d="M94,91 C102,53.2864689 106,32.2440124 106,27.8726306 C106,21.3155578 100.627417,16 94,16 C87.372583,16 82,21.3155578 82,27.8726306 C82,32.2440124 86,53.2864689 94,91 Z"
               id="js-needle" fill="#606060" transform="translate(94.000000, 53.500000) scale(-1, -1) translate(-94.000000, -53.500000) "
-              class="js-needle"></path>
+              class="js-needle-perfect"></path>
+            <path d="M94,91 C102,53.2864689 106,32.2440124 106,27.8726306 C106,21.3155578 100.627417,16 94,16 C87.372583,16 82,21.3155578 82,27.8726306 C82,32.2440124 86,53.2864689 94,91 Z"
+              id="js-needle" fill="#606060" transform="translate(94.000000, 100.00000) scale(-1, -1) translate(-94.000000, -53.500000) rotate(290 128 50)"
+              class="js-needle-slow hidden"></path>
+            <path d="M94,91 C102,53.2864689 106,32.2440124 106,27.8726306 C106,21.3155578 100.627417,16 94,16 C87.372583,16 82,21.3155578 82,27.8726306 C82,32.2440124 86,53.2864689 94,91 Z"
+              id="js-needle" fill="#606060" transform="translate(90.000000, 100.000000) scale(-1, -1) translate(-94.000000, -53.500000) rotate(70 60 48)"
+              class="js-needle-fast hidden"></path>
           </g>
         </g>
       </g>
