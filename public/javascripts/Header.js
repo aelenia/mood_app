@@ -24,6 +24,8 @@ const dailyMood = document.querySelector('.daily-mood')
 const dailySpeed = document.querySelector('.daily-speed')
 const dailyStart = document.querySelector('.daily-start')
 const overview = document.querySelector('.overview')
+const userIcon = document.querySelector('.user')
+const templateEl = document.querySelector('template')
 
 btnDaily.addEventListener('click', e => backToDaily())
 
@@ -40,3 +42,12 @@ btnOverview.addEventListener('click', e => {
   dailyStart.classList.add('hidden')
   overview.classList.remove('hidden')
 })
+
+userIcon.addEventListener('click', e => logOutScreen())
+
+function logOutScreen() {
+  templateEl.insertAdjacentHTML(
+    'afterbegin',
+    '<div class="user-logout logout">Logout</div>',
+  )
+}

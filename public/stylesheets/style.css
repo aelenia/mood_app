@@ -65,6 +65,13 @@ button {
   color: white;
   background: #f59d0c; }
 
+.user-logout {
+  border: 1px #9b9b9b solid;
+  padding: 5px 10px; }
+
+.logout {
+  transform: translateY(50px) translateX(-50px); }
+
 .daily-start,
 .daily-mood,
 .daily-speed {
