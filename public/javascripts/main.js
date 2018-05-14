@@ -1,4 +1,5 @@
-import Header from './Header.js'
+import Header, { elements } from './Header.js'
+// import login from './login.js'
 const header = new Header('[data-module-header]')
 
 // --- Switch Tab
@@ -117,5 +118,50 @@ function changeToPerfect(btn) {
     hideDiv(orangeRight)
     showDiv(needlePerfect)
     showDiv(green)
+  })
+}
+
+// ---> login
+
+// toggleButtons() {
+//   this.btns.forEach(btn => btn.classList.toggle('active-btn'))
+// }
+
+// getAll(sel) {
+//   return Array.from(this.el.querySelectorAll(sel))
+// }
+
+const buttonLogin = document.querySelector('.login')
+const buttonRegister = document.querySelector('.register')
+const loginInputs = document.querySelectorAll('.input-login')
+const inputs = document.querySelectorAll('input')
+const inputName = document.querySelector('.input-name')
+
+buttonLogin.addEventListener('click', changeToLogin)
+buttonRegister.addEventListener('click', changeToRegister)
+
+function changeToLogin() {
+  loginInputs.forEach(input => input.classList.remove('display-none'))
+  buttonLogin.classList.add('transform-translate')
+  buttonRegister.classList.add('display-none')
+  buttonLogin.classList.add('go-to-moodpage')
+  changeToDaily()
+}
+
+function changeToRegister() {
+  inputs.forEach(input => input.classList.remove('display-none'))
+  buttonLogin.classList.add('display-none')
+  buttonRegister.classList.add('transform-translate')
+}
+
+function changeToDaily() {
+  const body = document.querySelector('body')
+  const moodPage = document.querySelector('.go-to-moodpage')
+  const loginScreen = document.querySelector('.login-screen')
+  // const dailyStart = document.querySelector('.daily-start')
+  moodPage.addEventListener('click', e => {
+    loginScreen.classList.add('hidden')
+    dailyStart.classList.remove('hidden')
+    body.classList.remove('login-bg')
   })
 }

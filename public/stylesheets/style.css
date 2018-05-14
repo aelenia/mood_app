@@ -75,7 +75,8 @@ button {
 .daily-start,
 .daily-mood,
 .daily-speed {
-  height: 75vh; }
+  height: 75vh;
+  background: white; }
 
 .mood-selector {
   width: 100%;
@@ -136,7 +137,8 @@ svg {
   margin: auto 0 5% 0; }
 
 .overview {
-  height: 75vh; }
+  height: 75vh;
+  background: white; }
 
 .mood-stats,
 .speed-stats {
@@ -171,5 +173,110 @@ svg {
 
 .speed-text {
   width: 50%; }
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'Montserat', sans-serif;
+  height: 100vh; }
+
+.login-bg {
+  background: url("/images/wood-min.jpg");
+  background-position: right;
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+h1 {
+  color: #f59d0c;
+  font-size: 300%; }
+
+.section__buttons {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  z-index: 3; }
+
+.section__inputs {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 2;
+  position: relative; }
+
+.login {
+  font-size: 200%;
+  color: #f59d0c;
+  border: 2px solid #fff8e5;
+  width: 270px;
+  padding: 10px 20px;
+  background: none;
+  margin-bottom: 50px;
+  border-radius: 3px;
+  z-index: 3; }
+
+.register {
+  font-size: 200%;
+  color: #f59d0c;
+  border: 2px solid #fff8e5;
+  width: 270px;
+  padding: 10px 20px;
+  background: none;
+  margin-bottom: 50px;
+  border-radius: 3px;
+  z-index: 3; }
+
+.input-name {
+  color: #f59d0c;
+  font-size: 150%;
+  border: none;
+  border-bottom: 2px solid #fff8e5;
+  background: none;
+  margin: 20px; }
+
+::placeholder {
+  color: rgba(245, 156, 12, 0.815);
+  font-style: italic; }
+
+[placeholder]:focus::-webkit-input-placeholder {
+  transition: opacity 0.5s 0.5s ease;
+  opacity: 0; }
+
+texrarea:active,
+input:focus {
+  outline: none;
+  background: rgba(245, 156, 12, 0.3);
+  color: white; }
+
+.input-password {
+  color: #f59d0c;
+  font-size: 150%;
+  border: none;
+  border-bottom: 2px solid #fff8e5;
+  background: none;
+  margin: 20px; }
+
+.confirm-password {
+  color: #f59d0c;
+  font-size: 150%;
+  border: none;
+  border-bottom: 2px solid #fff8e5;
+  background: none;
+  margin: 20px; }
+
+.display-none {
+  display: none; }
+
+.transform-translate {
+  animation: transformTranslate 1s forwards; }
+
+@keyframes transformTranslate {
+  0% {
+    transform: translateY(0); }
+  100% {
+    transform: translateY(25px); } }
 
 /*# sourceMappingURL=style.css.map */

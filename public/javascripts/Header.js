@@ -18,6 +18,10 @@ export default class Header {
   }
 }
 
+export const elements = {
+  btnDaily: $('.daily-changer'),
+}
+
 const btnDaily = $('.daily-changer')
 const btnOverview = $('.overview-changer')
 const dailyMood = document.querySelector('.daily-mood')
